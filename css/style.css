@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style-type: none;
+}
+
+/* common root */
+
+:root{
+    --main_color: #1bbf00;
+}
