@@ -14,4 +14,43 @@ ul,ol{
 
 :root{
     --main_color: #1bbf00;
+    --secondary-color:#e6e5f3;
+    --text-color:#141135;
+    --paprika-color:#726e9e;
+    --primary--sec:#f6f5ff;
+    --hover-color:#6001d3;
+    --primary-font:'Open sans' sans-serif;
+    --secondary-font:'Paprika', cursive;
+    --rare-font:'Nunito', sans-serif;
 }
+
+
+
+
+/* navbar part css */
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 21px;
+    padding-left: 21px;
+    text-transform: capitalize;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+
+.nav_btn button{
+    padding: 14px 28px;
+    background-color: var(--main_color);
+    border: none;
+    border-radius: 50px;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+}
+
+/* 34 minutes */
