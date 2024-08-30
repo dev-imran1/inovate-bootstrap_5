@@ -19,14 +19,32 @@ h1,h2,h3,h4,h5,h6{
     --secondary-color:#e6e5f3;
     --text-color:#141135;
     --paprika-color:#726e9e;
-    --primary--sec:#f6f5ff;
+    --primary--sec:#f6f5ff;erw
     --hover-color:#6001d3;
     --primary-font:'Open sans' sans-serif;
     --secondary-font:'Paprika', cursive;
     --rare-font:'Nunito', sans-serif;
 }
 
+/* common css */
+.common-btn{
+    padding: 20px 40px;
+    border-radius: 50px;
+    border: 1px solid #ffff;
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 20px;
+    color: #ffff;
+    margin: 0px 15px ;
+    background-color: var(--main_color);
+    transition: all linear .3s;
+}
+.common-btn:hover{
+    background-color: transparent;
+    border-color: var(--main_color);
+    color: #000;
 
+}
 
 
 /* navbar part css */
@@ -130,3 +148,80 @@ h1,h2,h3,h4,h5,h6{
 .banner-btn{
     margin-top: 20px;
 }
+
+
+/* choose part css */
+
+#choose{
+    background-color: #fdfdfd;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.inner-left{
+    width: 10%;
+    margin-right: 15px;
+}
+.inner-right{
+    width: 90%;
+}
+.choose-left{
+    border-radius: 120x;
+    padding: 32px 100px;
+    transition: all linear .3s;
+    -webkit-border-radius: 120x;
+    -moz-border-radius: 120x;
+    -ms-border-radius: 120x;
+    -o-border-radius: 120x;
+}
+.choose-left:hover{
+    box-shadow: 10px 30px 60px rgba(162, 169, 192, 0.15);
+    background-color: #fff;
+    /* padding:42px 0; */
+    margin-bottom: 20px;
+}
+.inner-circle{
+    width: 25px;
+    height: 25px;
+    background-color: var(--paprika-color);
+    border-radius: 50%;
+    position: relative;
+}
+
+.inner-circle::after{
+    content: '';
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -15px;
+    background-color: #cbc8f0;
+}
+.inner-right p{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rare-font);
+    line-height: 30px;
+    padding-right: 220px;
+    box-sizing: border-box;
+}
+.choose-right{
+    text-align: center;
+}
+.choose-right h3{
+    font-size: 48px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
+
+.choose-right p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+    margin-top: 9px;
+    display: inline-block;
+    margin-bottom: 42px;
+}
+
