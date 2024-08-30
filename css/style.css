@@ -43,9 +43,21 @@ h1,h2,h3,h4,h5,h6{
     background-color: transparent;
     border-color: var(--main_color);
     color: #000;
-
 }
 
+.paragraph{
+    font-family: var(--primary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rare-font);
+    line-height: 30px;    
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 48px;
+    font-family: var(--primary-font);
+    font-weight: 700;
+}
 
 /* navbar part css */
 
@@ -224,4 +236,63 @@ h1,h2,h3,h4,h5,h6{
     display: inline-block;
     margin-bottom: 42px;
 }
+/* service part start here */
 
+.service-box{
+    background-color: #f4eeee;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 48px 51px 0 51px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.service-box:hover{
+    background-color: var(--paprika-color);
+    color: white;
+}
+.box-icon{
+    margin-bottom: 20px;
+}
+.box-content h4{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 30px;
+    color: #141135;
+    text-transform: capitalize;
+}
+
+.box-content a{
+    font-family: var(--primary-font);
+    font-weight: 700;
+    font-size: 18px;
+    color: #141135;
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 10px;
+    border-radius: 100px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.box-content a:after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 70px;
+    width: 100%;
+    height: 100%;
+    background-color: #1BBF00;
+    z-index: -1;
+    transition: all linear .3s;
+}
+
+.box-content a:hover::after{
+    left: 0px;
+    background-color: #9ff292;
+}
