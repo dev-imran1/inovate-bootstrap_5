@@ -52,6 +52,7 @@ h1,h2,h3,h4,h5,h6{
     color: var(--rare-font);
     line-height: 30px;    
     box-sizing: border-box;
+    display: inline-block;
 }
 .heading{
     font-size: 48px;
@@ -373,4 +374,43 @@ h1,h2,h3,h4,h5,h6{
 }
 .plan:hover .plan_content{
     color: #fff;
+}
+
+/* rating part */
+#rating{
+    background-color: #F8F8FF;
+    padding: 100px 30px;
+}
+.rating-content-box{
+    position: relative;
+    background-color: #fff;
+    margin-top: 80px;
+    width: 1080px;
+    text-align: center;
+}
+.rating-icon{
+    width: 147px;
+    height: 147px;
+    border-radius: 50%;
+    position: absolute;
+    right: 44%;
+    top: -60px;
+
+}
+.rating-icon img{
+    width: 100%;
+    height: 100%;
+}
+
+.star{
+    padding-top: 60px;
+    text-align: center;
+}
+.rating-content-box h6{
+    font-size: 18px;
+    display: inline-block;
+    font-family: var(--secondary-font);
+    line-height: 40px;
+    text-align: center;
+    width: 60%;
 }
