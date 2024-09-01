@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5,h6{
     --secondary-color:#e6e5f3;
     --text-color:#141135;
     --paprika-color:#726e9e;
-    --primary--sec:#f6f5ff;erw
+    --primary--sec:#f6f5ff;
     --hover-color:#6001d3;
     --primary-font:'Open sans' sans-serif;
     --secondary-font:'Paprika', cursive;
@@ -237,22 +237,26 @@ h1,h2,h3,h4,h5,h6{
     margin-bottom: 42px;
 }
 /* service part start here */
-
+#service{
+    background-color: #F6F5FF;
+    padding: 100px 0;
+}
 .service-box{
-    background-color: #f4eeee;
+    background-color: white;
     border-radius: 20px;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    -o-border-radius: 20px;
     padding: 48px 51px 0 51px;
     text-align: center;
     margin-bottom: 10px;
-    padding-bottom: 10px;
+    height: 396px;
+    padding: 48px 51px 48px 48px;
+    box-shadow: 1px -1px 23px -3px rgba(0,0,0,0.41);
 }
 
 .service-box:hover{
-    background-color: var(--paprika-color);
+    background-color: #6B62C5;
+    color: white;
+}
+.service-box:hover h4{
     color: white;
 }
 .box-icon{
@@ -295,4 +299,78 @@ h1,h2,h3,h4,h5,h6{
 .box-content a:hover::after{
     left: 0px;
     background-color: #9ff292;
+} 
+.box-content:hover a{
+    color: #58585c;
+}
+
+/* create part css */
+#create{
+    padding-top: 100px;
+    position: relative; 
+}
+
+.create-content p{
+    font-family: var(--secondary-font);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--rare-font);
+    line-height: 30px;    
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* plan */
+#plan{
+    background-color: #F9F9FB;
+    padding: 100px 0;
+}
+.plan{
+    background-color: #FFF;
+    margin:0 auto;
+    border-radius: 12px;
+    text-align: center;
+    height: 450px;
+    width: 370px;
+    padding: 30px 0;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+.plan_emoji img{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.plan-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.plan h6{
+    color: #1BBF00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.plan_content{
+    padding-bottom: 60px;
+    display: inline-block;
+    font-size: 18px;
+    color: #726E9E;
+    font-family: var(--secondary-font);
+    transition: all linear .3s;
+}
+.plan:hover{
+    background-color: #6B62C5;
+    color: #FFF;
+    transform: scale(1.1);
+    transition: all linear .3s;
+}
+.plan:hover .plan_content{
+    color: #fff;
 }
