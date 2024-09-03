@@ -2,7 +2,9 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
     }
-
+    .nav_btn {
+        text-align: center;
+    }
     .nav_btn button {
         border-radius: 5px;
         font-size: 18px;
@@ -13,7 +15,6 @@
 
     .overley {
         padding-top: 168px;
-        /* padding-bottom: 254px; */
     }
 
     .banner_content h1 {
@@ -26,7 +27,7 @@
         padding: 36px 0;
     }
 
-    .banner-btn a {
+    .banner-btn button{
         padding: 14px 25px;
         border-radius: 18px;
         font-size: 14px;

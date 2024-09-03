@@ -137,7 +137,7 @@ h6 {
 
 /* banner part  */
 #banner {
-    position: relative;
+    /* position: relative; */
     z-index: -1;
 }
 
@@ -163,22 +163,25 @@ h6 {
     padding: 0 182px;
 }
 
-.banner-btn a {
+.banner-btn button {
+    cursor: pointer;
     padding: 20px 40px;
     border-radius: 50px;
     border: 1px solid #ffff;
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 20px;
-    display: inline-block;
     color: #ffff;
     margin: 0px 15px;
+    background-color: transparent;
 }
 
-.banner-btn a:hover {
+ 
+.banner-btn button:hover {
     background-color: var(--main_color);
     border-color: var(--main_color);
-}
+    cursor: pointer;
+} 
 
 .banner-btn {
     margin-top: 20px;
