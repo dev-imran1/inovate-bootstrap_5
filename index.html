@@ -15,10 +15,11 @@
         rel="stylesheet">
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
 </head>
 
 <body>
-    <!-- navbar start -->
+    <!-- naend -->
     <nav class="navbar navbar-expand-lg navbar-light ">
         <div class="container">
             <a class="navbar-brand" href="#">
@@ -30,7 +31,7 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
@@ -65,8 +66,7 @@
     <section id="banner" style="background: url(images/banner.jpg)no-repeat center/cover;">
         <div class="overley w-100 vh-100">
             <div class="continer">
-                <div class="row">
-                    <div class="col-lg-10 mx-auto">
+                    <div class="mx-auto">
                         <div class="banner_content text-center">
                             <h1>YOU’RE UNIQUE. YOUR WEBSITE SHOULD BE TOO</h1>
                             <p>A beautiful website passionately crafted for your small business. Our Digital Agency
@@ -76,7 +76,6 @@
                                 <a href="#">Get free Quoto</a>
                                 <a href="#">Learn more</a>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -241,8 +240,8 @@
     <!-- create part start here -->
     <section id="create">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 mx-auto">
+            <div class="row ">
+                <div class="col-lg-6 mx-auto ">
                     <div class="create-content">
                         <h3 class="heading text-center mb-4 text-capitalize ">We create real impact</h3>
                         <p class="create-heading mb-5">We design, build and support websites and apps for clients
@@ -252,44 +251,44 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-5 mt-5">
-                    <div class="row">
+                <div class="col-lg-5 mt-2 mt-lg-5">
+                    <div class="row ">
                         <div class="col-lg-2">
                             <div class="inner-create-icon">
                                 <picture>
-                                    <img src="./images/create-1.png" alt="">
+                                    <img src="/images/create-1.png" alt="">
                                 </picture>
 
                             </div>
                         </div>
                         <div class="col-lg-10">
-                            <h4>Competitive analysis</h4>
-                            <p>With an all-new look and powerful features, Ekko is the best way to ensure success for
+                            <h4 class="create-heading">Competitive analysis</h4>
+                            <p class="paragraph">With an all-new look and powerful features, Ekko is the best way to ensure success for
                                 your business.</p>
                         </div>
-                        <div class="col-lg-2 mt-5">
+                        <div class="col-lg-2 mt-3 mt-lg-5">
                             <div class="inner-create-icon">
                                 <picture>
-                                    <img src="./images/create-2.svg" alt="">
+                                    <img src="/images/create-2.svg" alt="">
                                 </picture>
 
                             </div>
                         </div>
-                        <div class="col-lg-10 mt-5">
-                            <h4>Strategy And research</h4>
-                            <p>Save money and start building your website using the best tools available on the market
+                        <div class="col-lg-10 mt-3 mt-lg-5">
+                            <h4 class="create-heading">Strategy And research</h4>
+                            <p class="paragraph">Save money and start building your website using the best tools available on the market
                                 today.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-6 offset-lg-1">
                     <picture>
-                        <img src="/images/create-right.png" alt="">
+                        <img class="d-none d-lg-block" src="/images/create-right.png" alt="">
                     </picture>
                 </div>
             </div>
-            <div class="icon">
-                <img src="/images/create-icon.png" alt="">
+            <div class="icon d-none d-lg-block">
+                <img  src="/images/create-icon.png" alt="">
             </div>
         </div>
     </section>
@@ -341,13 +340,11 @@
     <!-- rating part start here -->
     <section id="rating">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
+                <div class="mx-auto">
                     <div class="rating_title ">
                         <h3 class="text-center">What The People Thinks About Us </h3>
                     </div>
                 </div>
-            </div>
                 <div class="row">
                     <div class="col-lg-11 offset-lg-1">
                         <div class="rating-content-box">
@@ -370,13 +367,13 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-5 offset-lg-1">
+                <div class="col-lg-5 col-12">
                     <picture>
                         <img src="/images/Logo.png" alt="">
                     </picture>
                     <h3 class="footer-text">Install any demo or template with a single click. You can mix and match all the demos & templates. Every demo can be turned into one or multi-page.</h3>
                 </div>
-                <div class="col-lg-2 text-end">
+                <div class="col-lg-2 col-4 text-lg-end">
                     <ul class="text-start list">
                         <h3 class="text-start list-heading">Features</h3>
                         <li class="list-item">Home</li>
@@ -386,7 +383,7 @@
                         <li class="list-item">Blog</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 text-end">
+                <div class="col-lg-2 col-4 text-lg-end">
                     <ul class="text-start list">
                         <h3 class="text-start list-heading">Products</h3>
                         <li class="list-item">Home</li>
@@ -394,7 +391,7 @@
                         <li class="list-item">Benifit</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 text-end">
+                <div class="col-lg-2 col-4 text-lg-end">
                     <ul class="text-start list">
                         <h3 class="text-start list-heading">Support</h3>
                         <li class="list-item">Home</li>
@@ -406,6 +403,26 @@
         </div>
     </footer>
     <!-- footer part stop here -->
+    <section id="copy_write">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <h3 class="copy_write-text">@20201 Innovate.All rights reserved.</h3>
+                </div>
+                <div class="col-lg-4 offset-lg-4 col-12">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h3 class="copy_write-text">Privacy policy</h3>
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <h3 class="copy_write-text">Terms & condition</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copy write part end -->
     <!-- js link -->
     <script src="/js//bootstrap.bundle.min.js"></script>
 </body>
