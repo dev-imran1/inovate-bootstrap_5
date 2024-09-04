@@ -1,20 +1,12 @@
-@media (min-width: 375px) {
-    .navbar-expand-lg .navbar-nav .nav-link {
-        text-align: center;
-    }
-    .nav_btn {
-        text-align: center;
-    }
-    .nav_btn button {
-        border-radius: 5px;
-        font-size: 18px;
-        width: 90%;
-    }
+@media (min-width: 576px) and (max-width:767px) {
+
 
     /* banner part responsive */
 
     .overley {
-        padding-top: 168px;
+        padding-top: 160px;
+        padding-bottom: 320px;
+        background-color: rgba(106, 98, 197, 0.9);
     }
 
     .banner_content h1 {
@@ -24,10 +16,10 @@
 
     .banner_content p {
         font-size: 18px;
-        padding: 36px 0;
+        padding: 16px 0;
     }
 
-    .banner-btn button{
+    .banner-btn button {
         padding: 14px 25px;
         border-radius: 18px;
         font-size: 14px;
@@ -35,12 +27,12 @@
     }
 
     /* choose part */
+
     .choose-left {
         padding: 10px 7px;
     }
-
     .inner-left {
-        margin-right: 35px;
+        margin-right: 4px;
     }
 
     .choose-right h3 {
@@ -98,6 +90,10 @@
     }
 
     /* create  part responsive */
+    #create {
+        padding-top: 50px;
+        position: relative;
+    }
     .create-content p {
         font-size: 14px;
         line-height: 24px;
@@ -108,43 +104,52 @@
         text-align: center;
         padding: 50px 0;
     }
+
     .plan-title {
         font-size: 21px;
     }
+
     .plan_content {
         padding-bottom: 0;
         font-size: 14px;
     }
+
     .plan {
         height: 343px;
         width: 300px;
         padding: 18px 0;
         margin-top: 35px;
     }
+
     .plan h6 {
         font-size: 24px;
         font-weight: 600;
         margin-bottom: 13px;
     }
+
     /* rating part responsive */
     #rating {
         padding: 50px 0;
     }
+
     .text-center {
-        text-align: center!important;
+        text-align: center !important;
         margin-bottom: 25px;
         font-size: 15px;
         font-weight: 600;
     }
+
     .rating-content-box {
         margin-top: 30px;
     }
+
     .rating-content-box h6 {
         font-size: 14px;
         line-height: 30px;
         margin-top: 10px;
         width: 100%;
     }
+
     .rating-icon {
         width: 100px;
         height: 100px;
@@ -152,14 +157,17 @@
         transform: translateX(-50%);
         top: -40px;
     }
+
     .star {
         padding-top: 45px;
     }
+
     /* footer part */
     footer {
         padding: 50px 0;
         text-align: center;
     }
+
     .footer-text {
         font-size: 14px;
         font-weight: 500;
@@ -167,11 +175,215 @@
         line-height: 150%;
         margin-bottom: 40px;
     }
+
     /* copy write */
     #copy_write {
         padding-bottom: 10px;
         text-align: center;
     }
+
+    .copy_write-text {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 375px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        text-align: center;
+    }
+
+    .nav_btn {
+        text-align: center;
+    }
+
+    .nav_btn button {
+        border-radius: 5px;
+        font-size: 18px;
+        width: 90%;
+    }
+
+    /* banner part responsive */
+
+    .overley {
+        padding-top: 142px;
+        padding-bottom: 324px;
+        background-color: rgba(106, 98, 197, 0.9);
+    }
+
+    .banner_content h1 {
+        font-size: 27px;
+        line-height: 40px;
+    }
+
+    .banner_content p {
+        font-size: 18px;
+        padding: 36px 0;
+    }
+
+    .banner-btn button {
+        padding: 14px 25px;
+        border-radius: 18px;
+        font-size: 14px;
+        margin: 0px 8px;
+    }
+
+    /* choose part */
+    .choose-left {
+        padding: 14px 3px;
+    }
+
+    #choose {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .inner-left {
+        margin-right: 24px;
+    }
+
+     .choose-right h3 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    .choose-right p {
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 35px;
+    }
+
+    .common-btn {
+        padding: 14px 26px;
+        border-radius: 10px;
+        font-size: 18px;
+        margin: 0px 15px;
+    }
+
+    /* service part */
+    #service {
+        padding: 45px 0;
+        text-align: center;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+
+    .paragraph {
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 15px;
+    }
+
+    .service-box {
+        height: 351px;
+        margin-top: 13px;
+    }
+
+    .box-content h4 {
+        font-size: 18px;
+    }
+
+    .paragraph {
+        line-height: 20px;
+        margin-top: 8px;
+    }
+
+    .box-content a {
+        font-size: 14px;
+        padding: 7px 11px;
+        margin-top: 17px;
+    }
+
+    /* create  part responsive */
+    .create-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    /* plan part */
+    #plan {
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    .plan-title {
+        font-size: 21px;
+    }
+
+    .plan_content {
+        padding-bottom: 0;
+        font-size: 14px;
+    }
+
+    .plan {
+        height: 343px;
+        width: 300px;
+        padding: 18px 0;
+        margin-top: 35px;
+    }
+
+    .plan h6 {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 13px;
+    }
+
+    /* rating part responsive */
+    #rating {
+        padding: 50px 0;
+    }
+
+    .text-center {
+        text-align: center !important;
+        margin-bottom: 25px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+
+    .rating-content-box {
+        margin-top: 30px;
+    }
+
+    .rating-content-box h6 {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    .rating-icon {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: -40px;
+    }
+
+    .star {
+        padding-top: 45px;
+    }
+
+    /* footer part */
+    footer {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+    .footer-text {
+        font-size: 14px;
+        font-weight: 500;
+        padding-top: 20px;
+        line-height: 150%;
+        margin-bottom: 40px;
+    }
+
+    /* copy write */
+    #copy_write {
+        padding-bottom: 10px;
+        text-align: center;
+    }
+
     .copy_write-text {
         font-size: 14px;
     }
